@@ -2,6 +2,7 @@ body {
   font-size: 14px;
   font-family: "PT Sans Narrow Bold";
   text-transform: uppercase;
+  width: 1200px;
 }
 
 h1 {
@@ -16,4 +17,19 @@ h2 {
 
 .silver {
   color: #aba9a7;
+}
+
+.main-header {
+
+  width: 940px;
+  min-height: 70px;
+  margin-left: 130px;
+  background-color: black;
+  }
+}
+
+.container-now {
+  float: left;
+width: 300px;
+
 }
