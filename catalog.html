@@ -6,36 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Barbershop</title>
+  <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
+
+
   <header class="main-header">
-    <div class="container">
-      <div class="logo">
-        <img class="logo1" src="img/Logo.png" </img>
-      </div>
+
+    <div class="container clearfix">
+      <a class="logo" href="#"><img src="img/Logo.png" alt=""></a>
+
       <nav class="main-navigation">
-
-        <ul>
-
-          <li><a class="active" href="#">Информация</a></li>
-
-          <li><a class="active" href="#">Новости</a></li>
-
-          <li><a class="active" href="#">Прайс-лист</a></li>
-
+        <ul class="clearfix">
+          <li><a href="#">Информация</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Прайс-лист</a></li>
           <li><a class="active" href="#">Магазин</a></li>
-
-          <li><a class="active" href="#">Контакты</a></li>
-
+          <li><a href="#">Контакты</a></li>
         </ul>
       </nav>
+
       <div class="nav1 nav2">
         <a class="login" href="#">Вход</a>
       </div>
+
     </div>
+
+
   </header>
+
 
   <main class="container">
     <section class="kit">
@@ -49,84 +50,79 @@
       </nav>
     </section>
 
-    <div class="image-all">
-      <div class="image">
+    <div class="left-and-right-column clearfix">
+
+      <div class="left_column clearfix">
         <img class="image-one" src="img/big_image.jpg" alt="" width="460" height="500">
+        <img class="image-two" src="img/mini_image1.jpg" alt="" width="140" height="150">
+        <img class="image-three" src="img/mini_image2.jpg" alt="" width="140" height="150">
+        <img class="image-four" src="img/mini_image3.jpg" alt="" width="140" height="150">
+      </div>
 
-        <div class="image1">
-
-          <img class="image-two" src="img/mini_image1.jpg" alt="" width="140" height="150">
-          <img class="image-three" src="img/mini_image2.jpg" alt="" width="140" height="150">
-          <img class="image-four" src="img/mini_image3.jpg" alt="" width="140" height="150">
+      <div class="right_column clearfix">
+        <div class="silver-all">
+          <span class="silver1">есть в наличии </span>
+          <span class="silver">Артикул: dexter-ae</span>
         </div>
-      </div>
-    </div>
 
+        <p class="articl">Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья,крем
+          после бритья, шампунь. Набор также может стать отличным подарком.</p>
 
+        <div class="price">
+          <b>2900 р.</b>
+          <a class="price1" href="#">Купить</a>
+        </div>
 
-    <div class="specification">
+        <div class="description-set">
+          <h2>В набор входят:</h2>
+          <ul class="texts">
+            <li>средство для умывания (50мл)</li>
+            <li>увлажнаяющий крем (50мл)</li>
+            <li>крем для бритья (50мл)</li>
+            <li>крем после бритья, шампунь (50мл)</li>
+            <li>удобная кожаная косметика</li>
+          </ul>
+        </div>
 
-      <div class="silver-all">
-        <span class="silver1">есть в наличии </span>
-        <span class="silver">Артикул: dexter-ae</span>
-      </div>
-
-      <p class="articl">Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья,крем после
-        бритья, шампунь. Набор также может стать отличным подарком.</p>
-
-      <div class="price">
-        <b>2900 р.</b>
-        <a class="price1" href="#">Купить</a>
-      </div>
-
-
-      <div class="description-set">
-        <h2>В набор входят:</h2>
-        <ul class="texts">
-          <li>средство для умывания (50мл)</li>
-          <li>увлажнаяющий крем (50мл)</li>
-          <li>крем для бритья (50мл)</li>
-          <li>крем после бритья, шампунь (50мл)</li>
-          <li>удобная кожаная косметика</li>
-        </ul>
       </div>
 
     </div>
-
-
-
-
-
-
-
 
   </main>
 
-  <footer class="footer-end">
 
-    <section class="footer-info">
-      Барбершоп «Бородинский»
-      <br> Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8
-      <br>
-      <a href="#">Как нас найти?</a>
-      <br> Телефон: +7 (812) 666-02-66
-    </section>
+  <footer class="footer-end ">
 
+    <div class="container clearfix">
 
-    <section class="footer-info">
-      <p>Давайте дружить!</p>
-      <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-      <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-      <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-    </section>
+      <section class="footer-info">
+        <p>Барбершоп «Бородинский»
+          <br> Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8
+          <br>
+          <a href="#">Как нас найти?</a>
+          <br> Телефон: +7 (812) 666-02-66
+        </p>
+      </section>
 
+      <section class="footer-info">
+        <p>Давайте дружить!</p>
+        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+      </section>
 
-    <section class="footer-info">
-      <p>Разработано:</p>
-      <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-    </section>
+      <section class="footer-info">
+        <div class="footer-low">
+          <p>Разработано:
+            <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+          </p>
+        </div>
+      </section>
+
+    </div>
 
   </footer>
+
 
 </body>
 

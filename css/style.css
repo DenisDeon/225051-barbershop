@@ -2,13 +2,15 @@ body {
   font-size: 14px;
   font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
-
+  min-width: 1200px;
+  min-height: 1200px;
+  margin: 0;
 }
 h1 {
-  font-size: 30px bold;
+  font-size: 30px;
 }
 h2 {
-  font-size: 24px bold;
+  font-size: 24px;
 }
 h3 {
   font-size: 14px;
@@ -20,174 +22,159 @@ h4 {
 .silver {
   color: #aba9a7;
 }
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .main-header {
-  width: 100%;
   min-height: 70px;
   margin-left: 0px;
   background-color: black;
+  padding-top: 1px;
 }
 .main-navigation li {
   float: left;
   list-style: none;
   padding-top: 0px;
-  margin-top: 27px;
-  margin-left: 40px;
+  margin-top: 13px;
 }
 .logo {
   float: left;
-  margin-top: 25px;
-  margin-right: 0px;
-  margin-left: 150px;
+  width: 110px;
+  margin-top: 11px;
+  margin-right: 40px;
 }
 .container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.main-navigation {
+  float: left;
+
 }
 .main-navigation a, .nav1 a {
   color: white;
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
 }
-.nav2 {
-  padding-top: 27px;
-  margin-right: 150px;
-  margin-left: 1020px;
-}
-.container-now {
-  float: left;
-  margin-top: 30px;
-  margin-left: 100px;
-  margin-right: 650px;
-}
-.container-now a, .container-now span {
-  padding-left: 40px;
-}
-.container-now h1 {
-  padding-left: 40px;
-}
-.features {
-  float: left;
-  margin-left: 140px;
-  width: 165px;
-  margin-top: 40px;
-}
-.features .stroka {
-  width: 145px;
-}
-.product-and-price, .product-and-price2 {
-  margin-left: 370px;
-}
-.product-and-price .journey {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 20px;
-  margin-top: 60px;
-}
-.product-and-price2 .shave {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 20px;
-  margin-top: 20px;
+.main-navigation li {
+  margin-right: 40px;
 }
 
-.button {
+.nav2 {
+  padding-top: 25px;
+  float: right;
+  margin-right: 20px;
+
+}
+.setnavigation {
+  width: 380px;
+  margin-top: 30px;
+}
+.left {
+  padding-left: 40px;
+}
+.container-for-two-column {
+  margin-top: 55px;
+}
+.features h2 {
+  margin-top: 0;
+}
+.features label {
+  display: block;
+}
+.left-column {
   float: left;
-  margin-left: 345px;
+  width: 220px;
+}
+.right-column {
+  float: left;
+  width: 700px;
+}
+.stroka {
+  margin-top: 20px;
+}
+.btn {
+  margin-top: 50px;
+  width: 110px;
+  height: 40px;
+}
+.product-and-price, .product-and-price2 {
+  float: left;
+  width: 720px;
+}
+.product {
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.product:nth-child(3n){
+  margin-right: 0;
+}
+.pagination {
   margin-top: 65px;
 }
+
 
 .button .butn {
   margin-left: 45px;
 }
-
 .footer-end {
-  width: 1200px;
-  float: left;
   margin-top: 120px;
+  width: 100%;
+  background-color: #232323;
+  height: 190px;
+  color: white;
+}
+.footer-info {
+float: left;
 
-  margin-left: 420px;
 }
 
-.footer-end .footer-info  {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 80px;
-
-
+.left-and-right-column {
+margin-top: 60px;
 }
-.footer-end .footer-info p {
-
-  text-align: center;
-}
-
-.footer-end .footer-info .footer-low {
-  margin-left: 120px;
-}
-
 .kit {
-  float:left;
-  margin-left: 150px;
+
   margin-top: 30px;
 }
-
 .kit .silver {
   margin-left: 45px;
 }
-
-.image {
+.left_column {
   float: left;
-  width: 450px;
-  margin-left: 140px;
-  margin-top: 60px;
-
-
-}
-
-.image-all .image1 {
   width: 460px;
-  padding: 2px;
+
 }
+.right_column {
+  float: left;
+  width: 390px;
 
-.image-all .image-three,
-.image-all .image-four {
-
-  margin-left: 15px;
+  margin-left: 90px;
 }
-
-
 .specification {
   float: left;
   width: 391px;
   margin-top: 85px;
   margin-left: 90px;
-
 }
-
 .silver-all .silver {
   margin-left: 142px;
 }
-
 .silver-all {
   margin-bottom: 40px;
 }
 .specification .articl {
   margin-bottom: 60px;
-
 }
-
 .specification .price {
-   margin-bottom: 85px;
-   margin-left: 30px;
-
+  margin-bottom: 85px;
+  margin-left: 30px;
 }
 .specification .price1 {
-
-   padding-left: 45px;
+  padding-left: 45px;
 }
-
 .description-set .texts {
   margin-top: 40px;
-  
 }
