@@ -1,7 +1,44 @@
+.sprite {
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-icon-fb {
+    width: 12px;
+    height: 22px;
+    background-position: -10px -10px;
+}
+
+.sprite-icon-inst {
+    width: 21px;
+    height: 21px;
+    background-position: -10px -52px;
+}
+
+.sprite-icon-krst {
+    width: 12px;
+    height: 12px;
+    background-position: -10px -93px;
+}
+
+.sprite-icon-login {
+    width: 18px;
+    height: 16px;
+    background-position: -10px -125px;
+}
+
+.sprite-icon-vk {
+    width: 25px;
+    height: 16px;
+    background-position: -10px -161px;
+}
+
 body {
   font-size: 14px;
-  font-family: "PT Sans", "Arial", sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   text-transform: uppercase;
+  line-height: 24px;
   min-width: 1200px;
   min-height: 1200px;
   margin: 0;
@@ -19,6 +56,9 @@ h3 {
 h4 {
   font-size: 14px;
 }
+a {
+   text-decoration: none;
+}
 .silver {
   color: #aba9a7;
 }
@@ -34,15 +74,22 @@ h4 {
   padding-top: 1px;
 }
 .main-navigation li {
-  float: left;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 20px;
+  vertical-align: top;
+
+}
+.main-navigation ul {
+   margin: 0;
+   padding: 0;
+   font-size: 0;
   list-style: none;
-  padding-top: 0px;
-  margin-top: 13px;
 }
 .logo {
   float: left;
   width: 110px;
-  margin-top: 11px;
+  margin-top: 25px;
   margin-right: 40px;
 }
 .container {
@@ -52,21 +99,50 @@ h4 {
 }
 .main-navigation {
   float: left;
-
 }
-.main-navigation a, .nav1 a {
+.main-navigation a {
+  display: block;
+  padding: 25px 20px;
   color: white;
 }
-.main-navigation li {
-  margin-right: 40px;
-}
-
-.nav2 {
-  padding-top: 25px;
+.main-navigation a:hover {
+background-color: #242424;
+  }
+.user-block:hover {
+background-color: #242424;
+  }
+.user-block {
   float: right;
-  margin-right: 20px;
+  max-width: 140px;
 
 }
+.login {
+  position: relative;
+
+  display: inline-block;
+  vertical-align: top;
+  padding: 25px 20px;
+  padding-left: 50px;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+}
+.login::before {
+  content: "";
+  position: absolute;
+  top: 28px;
+  left: 20px;
+  width: 18px;
+  height: 18px;
+
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -10px -126px;
+  opacity: 0.3;
+}
+.login:hover::before {
+  opacity: 1;
+}
+
 .setnavigation {
   width: 380px;
   margin-top: 30px;
@@ -109,14 +185,12 @@ h4 {
   margin-right: 20px;
   margin-bottom: 20px;
 }
-.product:nth-child(3n){
+.product:nth-child(3n) {
   margin-right: 0;
 }
 .pagination {
   margin-top: 65px;
 }
-
-
 .button .butn {
   margin-left: 45px;
 }
@@ -128,15 +202,12 @@ h4 {
   color: white;
 }
 .footer-info {
-float: left;
-
+  float: left;
 }
-
 .left-and-right-column {
-margin-top: 60px;
+  margin-top: 60px;
 }
 .kit {
-
   margin-top: 30px;
 }
 .kit .silver {
@@ -145,12 +216,10 @@ margin-top: 60px;
 .left_column {
   float: left;
   width: 460px;
-
 }
 .right_column {
   float: left;
   width: 390px;
-
   margin-left: 90px;
 }
 .specification {
